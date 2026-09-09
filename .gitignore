@@ -1,0 +1,44 @@
+# Python & Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets
+.env
+.env.*
+*.env
+!.env.example
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Caching & Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.oxlintrc.json
+
+# Logs & Temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# OS & Editor generated files
+.DS_Store
+Thumbs.db
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
